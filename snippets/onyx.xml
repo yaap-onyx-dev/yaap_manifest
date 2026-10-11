@@ -21,5 +21,8 @@
   <project name="vendor_xiaomi_onyx" path="vendor/xiaomi/onyx" remote="codeberg" revision="seventeen" />
   <project name="android_vendor_xiaomi_onyx-miuicamera" path="vendor/xiaomi/onyx-miuicamera" remote="codeberg" revision="seventeen" />
   <project name="vendor_qcom_opensource_audio" path="vendor/qcom/opensource/commonsys/audio" groups="qcom,qssi" remote="yaap-onyx" revision="lineage-22.2" />
+  <remove-project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8750/audio/primary-hal" />
+  <project path="hardware/qcom-caf/sm8750/audio/primary-hal" name="hardware_qcom_audio-ar" remote="yaap-onyx" revision="lineage-24.0-caf-sm8750" groups="qcom,pakala-audio" />
+
 
 </manifest>
