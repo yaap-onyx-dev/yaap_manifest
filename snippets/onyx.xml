@@ -14,9 +14,9 @@
 
   <project name="hardware_xiaomi" path="hardware/xiaomi" remote="yaap-onyx" />
 
-  <project name="kernel_xiaomi_sm8735" path="kernel/xiaomi/sm8735" remote="yaap-onyx" revision="seventeen" />
-  <project name="kernel_xiaomi_sm8735-devicetrees" path="kernel/xiaomi/sm8735-devicetrees" remote="yaap-onyx" revision="seventeen" />
-  <project name="kernel_xiaomi_sm8735-modules" path="kernel/xiaomi/sm8735-modules" remote="yaap-onyx" revision="seventeen" />
+  <project name="android_kernel_xiaomi_sm8735" path="kernel/xiaomi/sm8735" remote="yaap-onyx" revision="seventeen" />
+  <project name="android_kernel_xiaomi_sm8735-devicetrees" path="kernel/xiaomi/sm8735-devicetrees" remote="yaap-onyx" revision="seventeen" />
+  <project name="android_kernel_xiaomi_sm8735-modules" path="kernel/xiaomi/sm8735-modules" remote="yaap-onyx" revision="seventeen" />
 
   <project name="vendor_xiaomi_onyx" path="vendor/xiaomi/onyx" remote="codeberg" revision="seventeen" />
   <project name="android_vendor_xiaomi_onyx-miuicamera" path="vendor/xiaomi/onyx-miuicamera" remote="codeberg" revision="seventeen" />
