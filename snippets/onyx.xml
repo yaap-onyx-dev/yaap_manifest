@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="zenin"
-           fetch="https://github.com/sm8735-dev"
+  <remote  name="yaap-onyx"
+           fetch="https://github.com/yaap-onyx-dev"
            revision="sixteen" />
 
   <remote  name="codeberg"
            fetch="https://codeberg.org/zenin1504" />
 
-  <project name="device_xiaomi_onyx" path="device/xiaomi/onyx" remote="zenin" revision="seventeen" />
+  <project name="device_xiaomi_onyx" path="device/xiaomi/onyx" remote="yaap-onyx" revision="seventeen" />
 
-  <project name="device_xiaomi_onyx-miuicamera" path="device/xiaomi/onyx-miuicamera" remote="zenin" revision="miuicam" />
+  <project name="device_xiaomi_onyx-miuicamera" path="device/xiaomi/onyx-miuicamera" remote="yaap-onyx" revision="miuicam" />
 
-  <project name="hardware_xiaomi" path="hardware/xiaomi" remote="zenin" />
+  <project name="hardware_xiaomi" path="hardware/xiaomi" remote="yaap-onyx" />
 
-  <project name="kernel_xiaomi_sm8735" path="kernel/xiaomi/sm8735" remote="zenin" revision="oss" />
-  <project name="kernel_xiaomi_sm8735-devicetrees" path="kernel/xiaomi/sm8735-devicetrees" remote="zenin" revision="oss" />
-  <project name="kernel_xiaomi_sm8735-modules" path="kernel/xiaomi/sm8735-modules" remote="zenin" revision="oss" />
+  <project name="kernel_xiaomi_sm8735" path="kernel/xiaomi/sm8735" remote="yaap-onyx" revision="seventeen" />
+  <project name="kernel_xiaomi_sm8735-devicetrees" path="kernel/xiaomi/sm8735-devicetrees" remote="yaap-onyx" revision="seventeen" />
+  <project name="kernel_xiaomi_sm8735-modules" path="kernel/xiaomi/sm8735-modules" remote="yaap-onyx" revision="seventeen" />
 
   <project name="vendor_xiaomi_onyx" path="vendor/xiaomi/onyx" remote="codeberg" revision="seventeen" />
-  <project name="vendor_qcom_opensource_audio" path="vendor/qcom/opensource/commonsys/audio" groups="qcom,qssi" remote="zenin" revision="lineage-22.2" />
+  <project name="android_vendor_xiaomi_onyx-miuicamera" path="vendor/xiaomi/onyx-miuicamera" remote="codeberg" revision="seventeen" />
+  <project name="vendor_qcom_opensource_audio" path="vendor/qcom/opensource/commonsys/audio" groups="qcom,qssi" remote="yaap-onyx" revision="lineage-22.2" />
 
 </manifest>
