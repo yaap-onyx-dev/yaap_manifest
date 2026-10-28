@@ -24,7 +24,5 @@
   <remove-project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8750/audio/primary-hal" />
   <project path="hardware/qcom-caf/sm8750/audio/primary-hal" name="hardware_qcom_audio-ar" remote="yaap-onyx" revision="lineage-24.0-caf-sm8750" groups="qcom,pakala-audio" />
 
-  <remove-project name="platform/packages/modules/AdServices" />
-  <project name="android_packages_modules_AdServices" path="packages/modules/AdServices" remote="yaap-onyx" revision="seventeen" />
 
 </manifest>
